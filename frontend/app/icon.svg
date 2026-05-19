@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background: app off-white, no border -->
+  <rect width="512" height="512" rx="115" fill="#F5F4EF"/>
+
+  <!-- Lines connecting the three nodes (drawn first, under the circles) -->
+  <!-- Top node → Right node -->
+  <line x1="222" y1="178" x2="368" y2="272" stroke="#1A1A19" stroke-width="22" stroke-linecap="round"/>
+  <!-- Top node → Bottom node -->
+  <line x1="210" y1="190" x2="200" y2="352" stroke="#1A1A19" stroke-width="22" stroke-linecap="round"/>
+  <!-- Right node → Bottom node -->
+  <line x1="355" y1="288" x2="218" y2="358" stroke="#1A1A19" stroke-width="22" stroke-linecap="round"/>
+
+  <!-- Top-left node -->
+  <circle cx="208" cy="168" r="52" fill="#1A1A19"/>
+
+  <!-- Right node (slightly smaller) -->
+  <circle cx="378" cy="278" r="42" fill="#1A1A19"/>
+
+  <!-- Bottom node (largest) -->
+  <circle cx="200" cy="368" r="58" fill="#1A1A19"/>
+</svg>

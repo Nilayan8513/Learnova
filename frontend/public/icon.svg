@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background -->
+  <rect width="512" height="512" rx="110" fill="#F5F4EF"/>
+
+  <!-- Paper / document body -->
+  <rect x="120" y="90" width="220" height="290" rx="12" fill="#111111"/>
+
+  <!-- Folded corner (dog-ear) -->
+  <polygon points="340,90 340,160 270,90" fill="#F5F4EF"/>
+  <!-- Fold crease shadow -->
+  <polyline points="270,90 270,160 340,160" fill="none" stroke="#F5F4EF" stroke-width="8" stroke-linejoin="round"/>
+
+  <!-- Text lines on paper -->
+  <line x1="148" y1="190" x2="300" y2="190" stroke="#F5F4EF" stroke-width="16" stroke-linecap="round"/>
+  <line x1="148" y1="228" x2="300" y2="228" stroke="#F5F4EF" stroke-width="16" stroke-linecap="round"/>
+  <line x1="148" y1="266" x2="300" y2="266" stroke="#F5F4EF" stroke-width="16" stroke-linecap="round"/>
+  <line x1="148" y1="304" x2="240" y2="304" stroke="#F5F4EF" stroke-width="16" stroke-linecap="round"/>
+
+  <!-- Shadow / second page peeking behind -->
+  <rect x="145" y="108" width="220" height="290" rx="12" fill="none" stroke="#111111" stroke-width="14"/>
+  <!-- Second paper (slightly offset) -->
+  <rect x="160" y="122" width="220" height="290" rx="12" fill="none" stroke="#111111" stroke-width="10" stroke-dasharray="0"/>
+
+  <!-- Stack effect: third sheet -->
+  <rect x="175" y="136" width="220" height="290" rx="12" fill="#DDDDDD"/>
+  <rect x="160" y="122" width="220" height="290" rx="12" fill="#EEEEEE"/>
+  <rect x="145" y="108" width="220" height="290" rx="12" fill="#F9F9F9"/>
+
+  <!-- Top / main page -->
+  <rect x="130" y="94" width="220" height="290" rx="12" fill="#111111"/>
+  <polygon points="350,94 350,164 280,94" fill="#F5F4EF"/>
+  <polyline points="280,94 280,164 350,164" fill="none" stroke="#333" stroke-width="6" stroke-linejoin="round"/>
+
+  <!-- Text lines -->
+  <line x1="158" y1="196" x2="316" y2="196" stroke="#F5F4EF" stroke-width="14" stroke-linecap="round"/>
+  <line x1="158" y1="232" x2="316" y2="232" stroke="#F5F4EF" stroke-width="14" stroke-linecap="round"/>
+  <line x1="158" y1="268" x2="316" y2="268" stroke="#F5F4EF" stroke-width="14" stroke-linecap="round"/>
+  <line x1="158" y1="304" x2="260" y2="304" stroke="#F5F4EF" stroke-width="14" stroke-linecap="round"/>
+</svg>
